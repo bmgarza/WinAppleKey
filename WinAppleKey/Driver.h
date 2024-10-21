@@ -92,7 +92,8 @@ extern "C" {
 		HidLCmdMask = 0x8,
 		HidRCmdMask = 0x80,
 		HidLShiftMask = 0x2,
-		HidRShiftMask = 0x20
+		HidRShiftMask = 0x20,
+		HidCapsLockMask = 0x39
 	};
 
 	// Device extension structure
